@@ -1,1 +1,105 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body {
+font-family:'Noto Sans JP', sans-serif !important;
+}*/
+@media(min-width: 64em) {
+    .slds-large-size--9-of-12,
+    .slds-large-size_9-of-12 {
+        width: 100%;
+    }
+}
+/*C7EDCC→D0D9BA */
+html {
+    background-color: #C7EDCC !important;
+}
+.slds-container--x-large,
+.slds-container_x-large {
+    background-color: #C7EDCC !important;
+    max-width: 100%;
+}
+.unit-content {
+    float: left;
+    max-width: 59%;
+    margin-right: 10px;
+}
+#main>div.th-bg--light>div>div>article>h1 {
+    max-width: 59% !important;
+}
+#challenge {
+    float: right;
+    max-width: 40%;
+    right: 0em;
+    top: 3.5em;
+    bottom: 2em;
+    z-index: 1000;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.th-quiz__legend {
+    padding: .5rem;
+}
+.th-quiz__option {
+    padding: .1rem 1.5rem !important;
+    margin: .2rem;
+}
+.th-quiz__question {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 1rem !important;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+    background: #D0D9BA;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 20px;
+    border: 3px solid #D0D9BA;
+}
+/*FFFF00→C7EDCC*/
+h1,
+h2,
+h2>span,
+h3,
+h4 {
+    font-weight: bold;
+    color: white !important;
+    border: 5px green solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: green;
+}
+[data-test=header-user-name]:before {
+    content: "　1万点/日　";
+}
+.th-challenge__header,
+.tds-bg_white:nth-child(2),
+.slds-container_x-large .slds-container_center {
+    display: none;
+}
+.slds-order--2,
+.slds-order_2 {
+    display: none;
+}
+.slds-m-top--xx-large,
+.slds-m-top_xx-large {
+    margin-top: 0 !important;
+}
+/**画面下部を隠す**/
+.slds-p-vertical--large,
+.slds-p-vertical_large {
+    display: none;
+}
+th-footer {
+    display: none !important;
+}
+form,
+form>*,
+.slds-form-element__control,
+.slds-radio_button-group {
+    background-color: green;
+    color: white;
+}
 
